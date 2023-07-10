@@ -2,10 +2,10 @@
 <Jobs>
   <Job identifier="PlayerHuskJob" allowalways="true" minkarma="0" uicolor="0.35,0.84,0.50" vitalitymodifier="0" pricemultiplier="0.8" idlebehavior="Active">
     <Jobicon>
-      <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+      <sprite texture="%ModDir%/Job/PHMIcons.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     </Jobicon>
     <JobiconSmall>
-      <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="284,100,28,28" origin="0.5,0.5" />
+      <sprite texture="%ModDir%/Job/PHMIcons.png" sourcerect="284,100,28,28" origin="0.5,0.5" />
     </JobiconSmall>
     <Skills>
       <Skill identifier="weapons" level="10,20" />
@@ -21,7 +21,7 @@
       <Item identifier="jumpsyringe" equip="true" showpreview="false" />
       <!--<Item identifier="raptorstartitem" equip="true" outfit="true" />-->
       <PreviewSprites dims="120,109">
-        <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="256,0,100,100" offset="0,0" />
+        <sprite texture="%ModDir%/Job/PHMIcons.png" sourcerect="256,0,100,100" offset="0,0" />
       </PreviewSprites>
     </ItemSet>
     <!-- Another itemset is given to fix some stuff with UI in the server menu, and later will be used to have different sets (custom clothing, etc) -->
@@ -31,7 +31,7 @@
       <Item identifier="jumpsyringe" equip="true" showpreview="false" />
       <!--<Item identifier="raptorstartitem" equip="true" outfit="true" />-->
       <PreviewSprites dims="120,109">
-        <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="256,0,100,100" offset="0,0" />
+        <sprite texture="%ModDir%/Job/PHMIcons.png" sourcerect="256,0,100,100" offset="0,0" />
       </PreviewSprites>
     </ItemSet>
     <PortraitClothing>
