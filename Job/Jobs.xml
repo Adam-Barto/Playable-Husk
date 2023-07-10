@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Jobs>
+  <Job identifier="PlayerHuskJob" allowalways="true" minkarma="0" uicolor="0.35,0.84,0.50" vitalitymodifier="0" pricemultiplier="0.8" idlebehavior="Active">
+    <Jobicon>
+      <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="284,100,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="weapons" level="10,20" />
+      <Skill identifier="mechanical" level="5,10" />
+      <Skill identifier="electrical" level="5,10" />
+      <Skill identifier="medical" level="5,10" />
+      <Skill identifier="helm" level="5,10" />
+    </Skills>
+    <!-- the player spawns with a "raptorstartitem" that is removed once they are inside the game, this item is here to show an icon in the server menu. (But can also be used to give the player an affliction) -->
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="jumpsyringe" equip="true" showpreview="false" />
+      <!--<Item identifier="raptorstartitem" equip="true" outfit="true" />-->
+      <PreviewSprites dims="120,109">
+        <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="256,0,100,100" offset="0,0" />
+      </PreviewSprites>
+    </ItemSet>
+    <!-- Another itemset is given to fix some stuff with UI in the server menu, and later will be used to have different sets (custom clothing, etc) -->
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="jumpsyringe" equip="true" showpreview="false" />
+      <!--<Item identifier="raptorstartitem" equip="true" outfit="true" />-->
+      <PreviewSprites dims="120,109">
+        <sprite texture="%ModDir%/Job/PHJIcons.png" sourcerect="256,0,100,100" offset="0,0" />
+      </PreviewSprites>
+    </ItemSet>
+    <PortraitClothing>
+      <sprite name="Portrait Clothing Assistant" texture="Content/Items/Jobgear/PortraitClothing.png" sheetindex="0,2" />
+    </PortraitClothing>
+    <AutonomousObjectives>
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="pumpwater" option="pumpout" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="repairsystems" prioritymodifier="0.5" />
+      <Order identifier="fixleaks" prioritymodifier="0.5" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.4" />
+    </AutonomousObjectives>
+  </Job>
+</Jobs>
