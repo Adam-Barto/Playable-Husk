@@ -2,6 +2,8 @@
 <contentpackage name="Playable Husk" modversion="1.0.1" corepackage="False" gameversion="1.0.21.0">
   <Jobs file="%ModDir%/Job/Jobs.xml" />
 
+  <Character file="%ModDir%/Characters/Husk_player/Husk_player.xml"/>
+
 
 
 
