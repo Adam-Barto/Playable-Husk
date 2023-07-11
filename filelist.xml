@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Playable Husk" modversion="1.0.1" corepackage="False" gameversion="1.0.21.0">
   <Jobs file="%ModDir%/Job/Jobs.xml" />
+
+
+
+
+  <Text file="%ModDir%/Language/English.xml" />
+
 </contentpackage>
