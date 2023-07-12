@@ -4,4 +4,16 @@
   <jobName.PlayerHuskJob>Friendly Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>A secret project by the Coalition? A concerning sign that the Husk Parasite is learning? The next evolution that the Church of Husk speak of? Either way it's on your ship, and it's helping.</jobdescription.PlayerHuskJob>
 
+
+<!--  Talents-->
+  <talentname.hardtokeepdown>Hard to Keep Down</talentname.hardtokeepdown>
+  <talentdescription.hardtokeepdown>Increases the amount of health when you're unconscious.</talentdescription.hardtokeepdown>
+
+
+
+<!--  Talent Trees-->
+  <talentname.medicalmarvel>Medical Marvel</talentname.medicalmarvel>
+  <talentname.survivor>Survivor</talentname.survivor>
+  <talentname.biologicalweapon>Biological Weapon</talentname.biologicalweapon>
+
 </infotexts>

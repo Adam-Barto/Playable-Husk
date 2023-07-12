@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+
+    <Talent identifier="hardtokeepdown">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="0,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.hardtokeepdown"/>
+<!--            <Replace tag="[amount]" value="20" color="gui.green"/>-->
+<!--        </Description>-->
+        <AbilityGroupInterval interval="0.9">
+            <Abilities>
+                <CharacterAbilityApplyStatusEffectsToHusk invert="true">
+                    <StatusEffects>
+                        <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+                            <Affliction identifier="hardtokeepdown" strength="1.0" />
+                        </StatusEffect>
+                    </StatusEffects>
+                </CharacterAbilityApplyStatusEffectsToHusk>
+            </Abilities>
+        </AbilityGroupInterval>
+    </Talent>
+
+
+
+</Talents>

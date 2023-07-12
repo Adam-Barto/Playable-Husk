@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+    <TalentTree jobidentifier="PlayerHuskJob">
+        <SubTree identifier="playerhusk_primary" nameidentifier="talenttree.primary" type="primary">
+            <TalentOptions requiredtalents="2" maxchosentalents="6">
+                <TalentOption identifier="hardtokeepdown"/>
+                <TalentOption identifier="intheopenwater"/>
+                <TalentOption identifier="unnaturallurch"/>
+                <TalentOption identifier="uncomfortablyattentive"/>
+                <TalentOption identifier="barbedchitin"/>
+                <TalentOption identifier="friendlynibble"/>
+            </TalentOptions>
+            <TalentOptions requiredtalents="2" maxchosentalents="6">
+                <TalentOption identifier="oncebitten"/>
+                <TalentOption identifier="sharpenedappendage"/>
+                <TalentOption identifier="getthatthingawayfromme"/>
+                <TalentOption identifier="heightenedmetabolism"/>
+                <TalentOption identifier="perpetuallydamp"/>
+                <TalentOption identifier="familiarscent"/>
+            </TalentOptions>
+        </SubTree>
+        <SubTree identifier="medicalmarvel" type="specialization" requires="playerhusk_primary" blocks="survivor,biologicalweapon">
+            <TalentOptions>
+                <TalentOption identifier="breathoflife"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="directinjection"/>
+                <TalentOption identifier="foramoresuitablehost"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="protectiveinstinct"/>
+                <TalentOption identifier="paravender"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="worsecasescenario"/>
+            </TalentOptions>
+        </SubTree>
+        <SubTree identifier="survivor" type="specialization" requires="playerhusk_primary" blocks="medicalmarvel,biologicalweapon">
+            <TalentOptions>
+                <TalentOption identifier="concerningpresence"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="secondnature"/>
+                <TalentOption identifier="sharethoughts"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="usefulappendage"/>
+                <TalentOption identifier="lungeintoaction"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="oddmascot"/>
+            </TalentOptions>
+        </SubTree>
+        <SubTree identifier="biologicalweapon" type="specialization" requires="playerhusk_primary" blocks="medicalmarvel,survivor">
+            <TalentOptions>
+                <TalentOption identifier="frenzycatalyst"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="warybeasts"/>
+                <TalentOption identifier="lacedbullets"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="aggressiveappendage"/>
+                <TalentOption identifier="steadystinger"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="cannibalcalyx"/>
+            </TalentOptions>
+        </SubTree>
+    </TalentTree>
+
+</TalentTrees>
