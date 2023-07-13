@@ -7,6 +7,9 @@
 <!--            <Replace tag="[amount]" value="20" color="gui.green"/>-->
 <!--        </Description>-->
         <AbilityGroupInterval interval="0.9">
+<!--            <Conditions>-->
+<!--                <AbilityConditionHasAffliction afflictionidentifier="clownpower" />-->
+<!--            </Conditions>-->
             <Abilities>
                 <CharacterAbilityApplyStatusEffectsToHusk invert="true">
                     <StatusEffects>
@@ -18,7 +21,36 @@
             </Abilities>
         </AbilityGroupInterval>
     </Talent>
+    <Talent identifier="intheopenwater">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="1,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.intheopenwater"/>
 
+
+    </Talent>
+    <Talent identifier="unnaturallurch">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="2,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.unnaturallurch"/>
+
+
+    </Talent>
+    <Talent identifier="uncomfortablyattentive">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="3,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.uncomfortablyattentive"/>
+
+
+    </Talent>
+    <Talent identifier="barbedchitin">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="4,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.barbedchitin"/>
+
+
+    </Talent>
+    <Talent identifier="friendlynibble">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="5,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.friendlynibble"/>
+
+
+    </Talent>
 
 
 </Talents>
