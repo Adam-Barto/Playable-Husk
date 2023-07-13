@@ -18,8 +18,8 @@
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="headset" equip="true" showpreview="false" />
-      <Item identifier="jumpsyringe" equip="true" showpreview="false" />
-      <Item identifier="huskstartitem" equip="true" outfit="true" />
+      <Item identifier="subjectclothes" equip="true" showpreview="true" />
+      <Item identifier="huskstartitem" equip="true" outfit="true" showpreview="false" />
       <PreviewSprites dims="120,109">
         <sprite texture="%ModDir%/Job/PHMIcons.png" sourcerect="256,0,100,100" offset="0,0" />
       </PreviewSprites>
@@ -28,8 +28,8 @@
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="headset" equip="true" showpreview="false" />
-      <Item identifier="jumpsyringe" equip="true" showpreview="false" />
-      <Item identifier="huskstartitem" equip="true" outfit="true" />
+      <Item identifier="subjectclothes" equip="true" showpreview="true" />
+      <Item identifier="huskstartitem" equip="true" outfit="true" showpreview="false" />
       <PreviewSprites dims="120,109">
         <sprite texture="%ModDir%/Job/PHMIcons.png" sourcerect="256,0,100,100" offset="0,0" />
       </PreviewSprites>
