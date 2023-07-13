@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Start Item-->
+  <Item name="Husk Job" identifier="huskstartitem" category="Equipment" Tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" nonplayerteaminteractable="False">
+    <InventoryIcon texture="%ModDir%/Job/PHMIcons.png" sourcerect="257,0,100,100" />
+    <Body width="85" height="90" density="40" />
+    <Sprite name="Security Vest Item" texture="Content/Items/Jobgear/Mechanic/safetyharness.png" sourcerect="14,45,103,180" depth="0.6" origin="0.5,0.35" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Vest Wearable" texture="Content/Items/Jobgear/Mechanic/safetyharness.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.65" inheritorigin="false" origin="0.5,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+      <StatusEffect type="OnWearing" target="This">
+        <RemoveItem />
+      </StatusEffect>
+    </Wearable>
+  </Item>

@@ -4,6 +4,7 @@
   <TalentTrees file="%ModDir%/Job/TalentTrees.xml" />
   <Talents file="%ModDir%/Job/Talents.xml" />
   <Character file="%ModDir%/Characters/Husk_player/Husk_player.xml"/>
+  <Item file="%ModDir%/Items/huskplayerItems.xml" />
 
 
 
