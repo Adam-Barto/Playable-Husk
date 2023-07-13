@@ -52,5 +52,151 @@
 
     </Talent>
 
+    <Talent identifier="oncebitten">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="6,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.oncebitten"/>
+
+
+    </Talent>
+    <Talent identifier="sharpenedappendage">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="7,0" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.sharpenedappendage"/>
+
+
+    </Talent>
+    <Talent identifier="getthatthingawayfromme">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="0,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.getthatthingawayfromme"/>
+
+
+    </Talent>
+    <Talent identifier="heightenedmetabolism">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="1,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.heightenedmetabolism"/>
+
+
+    </Talent>
+    <Talent identifier="perpetuallydamp">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="2,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.perpetuallydamp"/>
+
+
+    </Talent>
+    <Talent identifier="familiarscent">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="3,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.familiarscent"/>
+
+
+    </Talent>
+    <Talent identifier="breathoflife">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="4,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.breathoflife"/>
+
+
+    </Talent>
+    <Talent identifier="directinjection">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="5,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.directinjection"/>
+
+
+    </Talent>
+    <Talent identifier="foramoresuitablehost">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="6,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.foramoresuitablehost"/>
+
+
+    </Talent>
+    <Talent identifier="protectiveinstinct">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="7,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.protectiveinstinct"/>
+
+
+    </Talent>
+    <Talent identifier="paravender">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="0,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.paravender"/>
+
+
+    </Talent>
+    <Talent identifier="worsecasescenario">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="1,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.worsecasescenario"/>
+
+
+    </Talent>
+    <Talent identifier="concerningpresence">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="2,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.concerningpresence"/>
+
+
+    </Talent>
+    <Talent identifier="secondnature">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="3,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.secondnature"/>
+
+
+    </Talent>
+    <Talent identifier="sharethoughts">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="4,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.sharethoughts"/>
+
+
+    </Talent>
+    <Talent identifier="usefulappendage">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="5,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.usefulappendage"/>
+
+
+    </Talent>
+    <Talent identifier="lungeintoaction">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="6,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.lungeintoaction"/>
+
+
+    </Talent>
+    <Talent identifier="oddmascot">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="7,2" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.oddmascot"/>
+
+
+    </Talent>
+
+    <Talent identifier="frenzycatalyst">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="0,3" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.frenzycatalyst"/>
+
+
+    </Talent>
+    <Talent identifier="warybeasts">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="1,3" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.warybeasts"/>
+
+
+    </Talent>
+    <Talent identifier="lacedbullets">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="2,3" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.lacedbullets"/>
+
+
+    </Talent>
+    <Talent identifier="aggressiveappendage">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="3,3" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.aggressiveappendage"/>
+
+
+    </Talent>
+    <Talent identifier="steadystinger">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="4,3" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.steadystinger"/>
+
+
+    </Talent>
+    <Talent identifier="cannibalcalyx">
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="5,3" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.cannibalcalyx"/>
+
+
+    </Talent>
+
 
 </Talents>

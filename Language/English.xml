@@ -8,22 +8,102 @@
 <!--  Talents-->
   <!--Make it more clear what it does-->
   <talentname.hardtokeepdown>Hard to Keep Down</talentname.hardtokeepdown>
-  <talentdescription.hardtokeepdown>Increases the amount of health when you're unconscious.</talentdescription.hardtokeepdown>
+  <talentdescription.hardtokeepdown>Increases the amount of health when you're unconscious</talentdescription.hardtokeepdown>
   <!--Make it more clear what it does-->
   <talentname.intheopenwater>In The Open Water</talentname.intheopenwater>
-  <talentdescription.intheopenwater>Get a exp/exp and mark percent bonus for mining missions.</talentdescription.intheopenwater>
+  <talentdescription.intheopenwater>Get a exp/exp and mark percent bonus for mining missions</talentdescription.intheopenwater>
 <!--Make it more clear what it does-->
   <talentname.unnaturallurch>Unnatural Lurch</talentname.unnaturallurch>
-  <talentdescription.unnaturallurch>Get a percent bonus when swimming and for the first x seconds when sprinting.</talentdescription.unnaturallurch>
+  <talentdescription.unnaturallurch>Get a percent bonus when swimming and for the first x seconds when sprinting</talentdescription.unnaturallurch>
 <!--Make it more clear what it does-->
   <talentname.uncomfortablyattentive>Uncomfortably Attentive</talentname.uncomfortablyattentive>
   <talentdescription.uncomfortablyattentive>Whilst a fellow crewmate is preforming an activity within x space, you gain a skill bonus to preforming that same activity for x seconds</talentdescription.uncomfortablyattentive>
 <!--Make it more clear what it does-->
   <talentname.barbedchitin>Barbed Chitin</talentname.barbedchitin>
-  <talentdescription.barbedchitin>When using your bite to attack an enemy, it will hold them in place as if they were grabbed for x time.</talentdescription.barbedchitin>
+  <talentdescription.barbedchitin>When using your bite to attack an enemy, it will hold them in place as if they were grabbed for x time</talentdescription.barbedchitin>
 <!--Make it more clear what it does-->
   <talentname.friendlynibble>Friendly Nibble</talentname.friendlynibble>
   <talentdescription.friendlynibble>Lowers the chances of giving teammates husk infection</talentdescription.friendlynibble>
+<!--Make it more clear what it does-->
+  <talentname.oncebitten>Once Bitten</talentname.oncebitten>
+  <talentdescription.oncebitten>Husked enemies, (through your bites or otherwise) have a higher chance of dropping calyx eggs</talentdescription.oncebitten>
+<!--Make it more clear what it does-->
+  <talentname.sharpenedappendage>Sharpened Appendage</talentname.sharpenedappendage>
+  <talentdescription.sharpenedappendage>Your creature attack damage is increased</talentdescription.sharpenedappendage>
+<!--Make it more clear what it does-->
+  <talentname.getthatthingawayfromme>Get That Thing Away From Me!</talentname.getthatthingawayfromme>
+  <talentdescription.getthatthingawayfromme>Merchants will give the crew a discount when in presence of the
+husk</talentdescription.getthatthingawayfromme>
+  <!--Make it more clear what it does-->
+  <talentname.heightenedmetabolism>Heightened Metabolism</talentname.heightenedmetabolism>
+  <talentdescription.heightenedmetabolism>Infection rate from your bites is much faster than regular husk progression</talentdescription.heightenedmetabolism>
+  <!--Make it more clear what it does-->
+  <talentname.perpetuallydamp>Perpetually Damp</talentname.perpetuallydamp>
+  <talentdescription.perpetuallydamp>Gives a small percent damage resistance to burns</talentdescription.perpetuallydamp>
+  <!--Make it more clear what it does-->
+  <talentname.familiarscent>Familiar Scent</talentname.familiarscent>
+  <talentdescription.familiarscent>When you are within x meters of ship you will be able to sense it's general direction</talentdescription.familiarscent>
+  <!--Make it more clear what it does-->
+  <talentname.breathoflife>Breath of Life</talentname.breathoflife>
+  <talentdescription.breathoflife>Your CPR is replaced with an option to use your parasitic limb to pump directly into someone's lungs. This is more effective, but has a low risk of infecting the recipient... Increase your base medical skill</talentdescription.breathoflife>
+  <!--Make it more clear what it does-->
+  <talentname.directinjection>Direct Injection</talentname.directinjection>
+  <talentdescription.directinjection>You have developed a hollow portion on your stinger perfect for holding a syringe. You can administer treatments and toxins with your creature attack. They gain a bonus to potency</talentdescription.directinjection>
+  <!--Make it more clear what it does-->
+  <talentname.foramoresuitablehost>For a More Suitable Host</talentname.foramoresuitablehost>
+  <talentdescription.foramoresuitablehost>You've perfected a method to remove a husk without harming it or it's host. Unlock the, "calyx harvester" recipe</talentdescription.foramoresuitablehost>
+  <!--Make it more clear what it does-->
+  <talentname.protectiveinstinct>Protective Instinct</talentname.protectiveinstinct>
+  <talentdescription.protectiveinstinct>When a crewmate goes down within x meters of you gain x move speed, swim speed, damage resistance, and a bonus to medical for x seconds</talentdescription.protectiveinstinct>
+  <!--Make it more clear what it does-->
+  <talentname.paravender>Para Vendor</talentname.paravender>
+  <talentdescription.paravender>You have found a means to create (kind of) mutually beneficial supplements with the byproduct of your spawn. You unlock the "Calyxite" (swim speed, water breathing, and pressure immunity, but heightened chance of catching husk while active) and "Calyxade" (health regen, move speed, damage resistance, slight chance of husk infection on use) recipes</talentdescription.paravender>
+  <!--Make it more clear what it does-->
+  <talentname.worsecasescenario>Worse Case Scenario</talentname.worsecasescenario>
+  <talentdescription.worsecasescenario>You have found a means to make your less viable spawn into a lifesaving, If dangerous and temporary, treatment.
+
+If a crewmate dies whilst you are preforming "breath of life" on them, they will instead immediately become fully husked and under player control for x minutes, after which time they will once again go down. Every full infection after the first will have an increasing chance of being permanent, at which point the player will instead lose control and be considered deceased when the duration ends
+  </talentdescription.worsecasescenario>
+  <!--Make it more clear what it does-->
+  <talentname.concerningpresence>Concerning Presence</talentname.concerningpresence>
+  <talentdescription.concerningpresence>Despite the ok from the captain, the crew is not entirely ok with their new addition and would prefer to keep as much distance as possible
+
+Crewmates within x meters get a bonus to move speed, welding speed, plasma/ drill speed, repair speed, electrical and mechanical engineering. This bonus is further multiplied x2 and x3 the closer you are to them
+  </talentdescription.concerningpresence>
+    <!--Make it more clear what it does-->
+  <talentname.secondnature>Second Nature</talentname.secondnature>
+  <talentdescription.secondnature>By now you've become more accustomed to water than land. Whilst swimming gain a bonus to swim speed, weld speed, cutter/drill speed, repair speed,mechanical and electrical engineering</talentdescription.secondnature>
+  <!--Make it more clear what it does-->
+  <talentname.sharethoughts>Share Thoughts</talentname.sharethoughts>
+  <talentdescription.sharethoughts>By latching on to the spinal cord directly, you can absorb a small handful of useful memories. Every round the first bite on a crewmate will deal bonus damage and have a higher risk of infection, but will confer a bonus to repair speed, weld speed, electrical and mechanical engineering, and general skill gain for the rest of the round. This can stack up to twice with different crewmembers</talentdescription.sharethoughts>
+  <!--Make it more clear what it does-->
+  <talentname.usefulappendage>Useful Appendage</talentname.usefulappendage>
+  <talentdescription.usefulappendage>As unorthodox as it may look, you've figured out how to use your stinger to hold and manipulate items. You can hold one handed items in your stinger and manipulate them with the creature attack button</talentdescription.usefulappendage>
+  <!--Make it more clear what it does-->
+  <talentname.lungeintoaction>Lunge Into Action!</talentname.lungeintoaction>
+  <talentdescription.lungeintoaction>After being stationary for 3 seconds gain a large bonus to move speed and repair speed for 1 minute</talentdescription.lungeintoaction>
+  <!--Make it more clear what it does-->
+  <talentname.oddmascot>Odd Mascot</talentname.oddmascot>
+  <talentdescription.oddmascot>The crew has finally come to accept you as their own. Concerning Presence is replaced with, "helpful husk" providing the x2 benefits of the original to the entire crew and retaining the x3 benefit when close. As well the skill bonus now applies to all skills</talentdescription.oddmascot>
+  <!--Make it more clear what it does-->
+  <talentname.frenzycatalyst>Frenzy Catalyst</talentname.frenzycatalyst>
+  <talentdescription.frenzycatalyst>There is a deep and carnal urge to spread, to share your gifts. For every one husk infected entity within x meters, you gain a bonus to move, swim, attack speed, creature attack speed,and weapons. This can stack up to 5 times. Fellow crew members you've infected get the equivalent of the 1x bonus, even before symptoms appear</talentdescription.frenzycatalyst>
+  <!--Make it more clear what it does-->
+  <talentname.warybeasts>Wary Beasts</talentname.warybeasts>
+  <talentdescription.warybeasts>With that scent, and cold leathery flesh, even the behemoths know what lies within. Gain a flat damage resistance. Creatures capable of eating you whole will not, though they may attack through other means</talentdescription.warybeasts>
+  <!--Make it more clear what it does-->
+  <talentname.lacedbullets>Laced Bullets</talentname.lacedbullets>
+  <talentdescription.lacedbullets>You've found a way to simply and efficiently infect ammo, and whoever is injured by it in turn. Ranged weapons and ship weapons you use share your infection chance, greatly increase the range of your frenzy catalyst</talentdescription.lacedbullets>
+  <!--Make it more clear what it does-->
+  <talentname.aggressiveappendage>Aggressive Appendage</talentname.aggressiveappendage>
+  <talentdescription.aggressiveappendage>Your stinger has grown with your appetite. The range of your creature attack increases, as well as the attack speed of your creature attack</talentdescription.aggressiveappendage>
+  <!--Make it more clear what it does-->
+  <talentname.steadystinger>Steady Stinger</talentname.steadystinger>
+  <talentdescription.steadystinger>Whether it's wrapped around your rifle, or steadying the periscopes, your stinger helps you keep a firm grip and a dead eye. Your creature attack is disabled while using a ship weapon or a 2 handed ranged weapon, however you gain a boost to weapons as well as recoil reductio</talentdescription.steadystinger>
+  <!--Make it more clear what it does-->
+  <talentname.cannibalcalyx>Cannibal Calyx</talentname.cannibalcalyx>
+  <talentdescription.cannibalcalyx>Your eggs seem almost as if they themselves were infected with your aggressive instincts. Anything fully husked within the range of frenzy catalyst, (to a cap of 5) will fight alongside you and the crew</talentdescription.cannibalcalyx>
+
 
 
 
