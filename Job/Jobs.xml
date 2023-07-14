@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <Job identifier="PlayerHuskJob" allowalways="true" minkarma="0" uicolor="0.35,0.84,0.50" vitalitymodifier="0" pricemultiplier="0.8" idlebehavior="Active">
+  <Job identifier="PlayerHuskJob" allowalways="true" minkarma="0" uicolor="0.4628, 0.3490, 0.9216" vitalitymodifier="0" pricemultiplier="0.8" idlebehavior="Active">
     <Jobicon>
       <sprite texture="%ModDir%/Job/PHMIcons.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     </Jobicon>
