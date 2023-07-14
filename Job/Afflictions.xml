@@ -28,4 +28,24 @@
         <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="3,0" sheetelementsize="128,128" origin="0,0"/>
     </Affliction>
 
+    <Affliction
+            identifier="perpetuallydamp"
+            type="talentbuff"
+            isbuff="true"
+            limbspecific="false"
+            hideiconafterdelay="true"
+            showiconthreshold="1"
+            maxstrength="1"
+            duration="1"
+            treatmentthreshold="1000"
+            iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+        <Effect minstrength="0" maxstrength="1"
+                resistancefor="burn"
+                minresistance="0.2"
+                maxresistance="0.2">
+<!--            <StatValue stattype="MeleeAttackMultiplier" value="0.2" />-->
+        </Effect>
+        <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="2,1" sheetelementsize="128,128" color="10,193,114,255" origin="0,0"/>
+  </Affliction>
+
 </Afflictions>

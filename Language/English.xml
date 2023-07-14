@@ -37,9 +37,9 @@ husk</talentdescription.getthatthingawayfromme>
   <!--Make it more clear what it does-->
   <talentname.heightenedmetabolism>Heightened Metabolism</talentname.heightenedmetabolism>
   <talentdescription.heightenedmetabolism>Infection rate from your bites is much faster than regular husk progression</talentdescription.heightenedmetabolism>
-  <!--Make it more clear what it does-->
+  <!--Testing Needed-->
   <talentname.perpetuallydamp>Perpetually Damp</talentname.perpetuallydamp>
-  <talentdescription.perpetuallydamp>Gives a small percent damage resistance to burns</talentdescription.perpetuallydamp>
+  <talentdescription.perpetuallydamp>Gives [percent]% damage resistance to burns</talentdescription.perpetuallydamp>
   <!--Make it more clear what it does-->
   <talentname.familiarscent>Familiar Scent</talentname.familiarscent>
   <talentdescription.familiarscent>When you are within x meters of ship you will be able to sense it's general direction</talentdescription.familiarscent>

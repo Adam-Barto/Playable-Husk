@@ -97,7 +97,24 @@
     </Talent>
     <Talent identifier="perpetuallydamp">
         <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="2,1" sheetelementsize="128,128"/>
-        <Description tag="talentdescription.perpetuallydamp"/>
+        <Description tag="talentdescription.perpetuallydamp">
+             <Replace tag="[percent]" value="25" color="gui.green"/>
+
+        </Description>
+        <AbilityGroupInterval interval="0.9">
+<!--            <Conditions>-->
+<!--                <AbilityConditionAllyNearby distance="2000" truthywhen="NoCharacterMatches"/>-->
+<!--            </Conditions>-->
+            <Abilities>
+                <CharacterAbilityApplyStatusEffects>
+                    <StatusEffects>
+                        <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+                            <Affliction identifier="perpetuallydamp" amount="1.0"/>
+                        </StatusEffect>
+                    </StatusEffects>
+                </CharacterAbilityApplyStatusEffects>
+            </Abilities>
+        </AbilityGroupInterval>
 
 
     </Talent>
