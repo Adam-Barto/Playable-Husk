@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Afflictions>
 <!--    Spawnin-->
-    <Affliction
-        identifier="createhuskplayer"
-    >
-        <CharacterSpawnInfo SpeciesName="Husk_Player" TransferBuffs="true" TransferAffliction="true" TransferInventory="true" TransferControl="true" RemovePreviousCharacter="true">
+<!--    <Affliction-->
+<!--        identifier="createhuskplayer"-->
+<!--    >-->
+<!--        <CharacterSpawnInfo SpeciesName="Husk_Player" TransferBuffs="true" TransferAffliction="true" TransferInventory="true" TransferControl="true" RemovePreviousCharacter="true">-->
 
-        </CharacterSpawnInfo>
-    </Affliction>
+<!--        </CharacterSpawnInfo>-->
+<!--    </Affliction>-->
 
 <!--    Talents-->
     <Affliction
@@ -29,6 +29,23 @@
     </Affliction>
 
     <Affliction
+            identifier="getthatthingawayfromme"
+            type="talentbuff"
+            isbuff="true"
+            limbspecific="false"
+            hideiconafterdelay="true"
+            maxstrength="1"
+            treatmentthreshold="1000"
+            duration="1"
+            iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+        <Effect minstrength="0" maxstrength="1">
+            <StatValue stattype="StoreBuyMultiplier" value="0.2" />
+        </Effect>
+<!--        <Conversation line="Get that thing away from me!"/>-->
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="6,3" sheetelementsize="128,128" color="10,193,114,255" origin="0,0"/>
+    </Affliction>
+
+    <Affliction
             identifier="perpetuallydamp"
             type="talentbuff"
             isbuff="true"
@@ -46,6 +63,6 @@
 <!--            <StatValue stattype="MeleeAttackMultiplier" value="0.2" />-->
         </Effect>
         <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="2,1" sheetelementsize="128,128" color="10,193,114,255" origin="0,0"/>
-  </Affliction>
+    </Affliction>
 
 </Afflictions>
