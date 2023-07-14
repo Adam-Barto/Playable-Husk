@@ -85,7 +85,30 @@
     </Talent>
     <Talent identifier="getthatthingawayfromme">
         <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="0,1" sheetelementsize="128,128"/>
-        <Description tag="talentdescription.getthatthingawayfromme"/>
+        <Description tag="talentdescription.getthatthingawayfromme">
+            <Replace tag="[percent]" value="20" color="gui.green"/>
+        </Description>
+        <AbilityGroupInterval interval="1">
+            <Abilities>
+                <CharacterAbilityApplyStatusEffectsToAllies maxdistance="600" allowself="true">
+                    <StatusEffects>
+                        <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+                            <Affliction identifier="getthatthingawayfromme" strength="1.0"/>
+                        </StatusEffect>
+                    </StatusEffects>
+                </CharacterAbilityApplyStatusEffectsToAllies>
+            </Abilities>
+        </AbilityGroupInterval>
+
+<!--        <AbilityGroupEffect abilityeffecttype="None">-->
+<!--            <Abilities>-->
+<!--                <CharacterAbilityGiveStat statidentifier="all~networking" stattype="StoreBuyMultiplier" value="0.2" targetallies="true" setvalue="true" />-->
+<!--                <CharacterAbilityGiveStat statidentifier="coalition" stattype="StoreBuyMultiplier" value="0.2" targetallies="true" setvalue="true" />-->
+<!--                <CharacterAbilityGiveStat statidentifier="clowns" stattype="StoreBuyMultiplier" value="0.2" targetallies="true" setvalue="true" />-->
+<!--                <CharacterAbilityGiveStat statidentifier="huskcult" stattype="StoreBuyMultiplier" value="0.2" targetallies="true" setvalue="true" />-->
+<!--                <CharacterAbilityGiveStat statidentifier="separatists" stattype="StoreBuyMultiplier" value="0.2" targetallies="true" setvalue="true" />-->
+<!--            </Abilities>-->
+<!--        </AbilityGroupEffect>-->
 
 
     </Talent>

@@ -30,10 +30,9 @@
 <!--Make it more clear what it does-->
   <talentname.sharpenedappendage>Sharpened Appendage</talentname.sharpenedappendage>
   <talentdescription.sharpenedappendage>Your creature attack damage is increased</talentdescription.sharpenedappendage>
-<!--Make it more clear what it does-->
+<!--Tested-->
   <talentname.getthatthingawayfromme>Get That Thing Away From Me!</talentname.getthatthingawayfromme>
-  <talentdescription.getthatthingawayfromme>Merchants will give the crew a discount when in presence of the
-husk</talentdescription.getthatthingawayfromme>
+  <talentdescription.getthatthingawayfromme>Merchants will give the crew a [percent]% discount when in presence of the husk</talentdescription.getthatthingawayfromme>
   <!--Make it more clear what it does-->
   <talentname.heightenedmetabolism>Heightened Metabolism</talentname.heightenedmetabolism>
   <talentdescription.heightenedmetabolism>Infection rate from your bites is much faster than regular husk progression</talentdescription.heightenedmetabolism>
@@ -111,5 +110,9 @@ Crewmates within x meters get a bonus to move speed, welding speed, plasma/ dril
   <talentname.medicalmarvel>Medical Marvel</talentname.medicalmarvel>
   <talentname.survivor>Survivor</talentname.survivor>
   <talentname.biologicalweapon>Biological Weapon</talentname.biologicalweapon>
+
+<!--  Afflictions-->
+  <afflictionname.getthatthingawayfromme>Unpleasant Aura</afflictionname.getthatthingawayfromme>
+  <afflictiondescription.getthatthingawayfromme>Merchants look uneasy... do you have something stuck in your teeth?</afflictiondescription.getthatthingawayfromme>
 
 </infotexts>
