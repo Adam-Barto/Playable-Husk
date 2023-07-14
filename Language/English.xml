@@ -9,9 +9,9 @@
   <!--Make it more clear what it does-->
   <talentname.hardtokeepdown>Hard to Keep Down</talentname.hardtokeepdown>
   <talentdescription.hardtokeepdown>Increases the amount of health when you're unconscious</talentdescription.hardtokeepdown>
-  <!--Make it more clear what it does-->
+  <!--Needs Testing-->
   <talentname.intheopenwater>In The Open Water</talentname.intheopenwater>
-  <talentdescription.intheopenwater>Get a exp/exp and mark percent bonus for mining missions</talentdescription.intheopenwater>
+  <talentdescription.intheopenwater>Gain [xpbonus]% bonus XP and [moneybonus]% bonus money when completing a mining mission</talentdescription.intheopenwater>
 <!--Make it more clear what it does-->
   <talentname.unnaturallurch>Unnatural Lurch</talentname.unnaturallurch>
   <talentdescription.unnaturallurch>Get a percent bonus when swimming and for the first x seconds when sprinting</talentdescription.unnaturallurch>

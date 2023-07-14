@@ -21,12 +21,31 @@
             </Abilities>
         </AbilityGroupInterval>
     </Talent>
+
     <Talent identifier="intheopenwater">
         <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="1,0" sheetelementsize="128,128"/>
-        <Description tag="talentdescription.intheopenwater"/>
-
-
+        <Description tag="talentdescription.intheopenwater">
+            <Replace tag="[xpbonus]" value="15" color="gui.green"/>
+            <Replace tag="[moneybonus]" value="15" color="gui.green"/>
+        </Description>
+        <AbilityGroupEffect abilityeffecttype="OnGainMissionMoney">
+            <Conditions>
+                <AbilityConditionMission missiontype="Mineral"/>
+            </Conditions>
+            <Abilities>
+                <CharacterAbilityModifyValue multiplyvalue="1.15"/>
+            </Abilities>
+        </AbilityGroupEffect>
+        <AbilityGroupEffect abilityeffecttype="OnGainMissionExperience">
+            <Conditions>
+                <AbilityConditionMission missiontype="Mineral"/>
+            </Conditions>
+            <Abilities>
+                <CharacterAbilityModifyValue multiplyvalue="1.15"/>
+            </Abilities>
+        </AbilityGroupEffect>
     </Talent>
+
     <Talent identifier="unnaturallurch">
         <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="2,0" sheetelementsize="128,128"/>
         <Description tag="talentdescription.unnaturallurch"/>
