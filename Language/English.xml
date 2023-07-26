@@ -6,7 +6,7 @@
 
 
 <!--  Talents-->
-  <!--Make it more clear what it does-->
+  <!--Make it more clear what it does, Client wants Health Regen.-->
   <talentname.hardtokeepdown>Hard to Keep Down</talentname.hardtokeepdown>
   <talentdescription.hardtokeepdown>Increases the amount of health when you're unconscious</talentdescription.hardtokeepdown>
   <!--Needs Testing-->
@@ -81,7 +81,7 @@ Crewmates within [distance] meters get a bonus to move speed, welding speed, pla
   <!--Make it more clear what it does-->
   <talentname.lungeintoaction>Lunge Into Action!</talentname.lungeintoaction>
   <talentdescription.lungeintoaction>After being stationary for 3 seconds gain a large bonus to move speed and repair speed for 1 minute</talentdescription.lungeintoaction>
-  <!--Make it more clear what it does-->
+  <!--Tested-->
   <talentname.oddmascot>Odd Mascot</talentname.oddmascot>
   <talentdescription.oddmascot>The crew has finally come to accept you as their own. Concerning Presence is replaced with, "helpful husk" providing the x2 benefits of the original to the entire crew and retaining the x3 benefit when close. As well the skill bonus now applies to all skills</talentdescription.oddmascot>
   <!--Make it more clear what it does-->
