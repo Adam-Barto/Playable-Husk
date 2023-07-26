@@ -195,7 +195,26 @@
             <Replace tag="[distance]" value="5" color="gui.green"/>
         </Description>
         <AbilityGroupInterval interval="1">
+            <Conditions>
+                <AbilityConditionHasTalent identifier="oddmascot" truthywhen="HasTalent"/>
+            </Conditions>
             <Abilities>
+                <CharacterAbilityApplyStatusEffectsToAllies maxdistance="9000" allowself="false">
+                    <StatusEffects>
+                        <StatusEffect type="OnAbility" target="Character" setValue="true" disabledeltatime="true">
+                            <Affliction identifier="helpfulhusk" amount="1"/>
+                        </StatusEffect>
+                    </StatusEffects>
+                </CharacterAbilityApplyStatusEffectsToAllies>
+                <CharacterAbilityApplyStatusEffectsToAllies maxdistance="500" allowself="false">
+                    <StatusEffects>
+                        <StatusEffect type="OnAbility" target="Character" setValue="true" disabledeltatime="true">
+                            <Affliction identifier="helpfulhusk" amount="3"/>
+                        </StatusEffect>
+                    </StatusEffects>
+                </CharacterAbilityApplyStatusEffectsToAllies>
+            </Abilities>
+            <FallbackAbilities>
                 <CharacterAbilityApplyStatusEffectsToAllies maxdistance="500" allowself="false">
                     <StatusEffects>
                         <StatusEffect type="OnAbility" target="Character" setValue="true" disabledeltatime="true">
@@ -217,7 +236,7 @@
                         </StatusEffect>
                     </StatusEffects>
                 </CharacterAbilityApplyStatusEffectsToAllies>
-            </Abilities>
+            </FallbackAbilities>
         </AbilityGroupInterval>
 
 

@@ -121,5 +121,8 @@ Crewmates within [distance] meters get a bonus to move speed, welding speed, pla
   <afflictiondescription.concerningpresence.high>You can smell the briny salt, as if a person could mildew. It's husk parasite chitters behind you, but you dare not look. You are drawing on speed you didn't know you had to get the job done and get out of it's presence.</afflictiondescription.concerningpresence.high>
   <afflictiondescription.concerningpresence.medium>The sound of soggy boots dragging, the unnatural shuffle. You can hear it drawing closer. You need to finish this and get out now..</afflictiondescription.concerningpresence.medium>
   <afflictiondescription.concerningpresence.low>The hair stands up on the back of your neck, your tools shake a little as you try to rush your duties. Something in your mind tells you, "it" is coming.</afflictiondescription.concerningpresence.low>
+  <afflictionname.helpfulhusk>Helpful Husk</afflictionname.helpfulhusk>
+  <afflictiondescription.helpfulhusk>The way they clumsily hold their tools belies a surprising amount of skill. You feel inspired simply by watching them work.</afflictiondescription.helpfulhusk>
+  <afflictiondescription.helpfulhusk.low>Sure the Medicine Cabinet's a hoard of calyxanide, and the crews had to start taking ABX like multivitamins after a few, "incidents" but you've seen that husk pull their weight and then some for the crew. It's a strange thought, but you feel oddly comforted just knowing they're there.</afflictiondescription.helpfulhusk.low>
 
 </infotexts>

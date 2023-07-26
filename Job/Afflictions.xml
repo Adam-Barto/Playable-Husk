@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Sprite Location 3,1-->
+<!--Sprite Location 8,3 x,y -->
 <Afflictions>
 <!--    Spawning-->
     <Affliction
@@ -112,7 +112,46 @@
             <StatValue stattype="MechanicalSkillBonus" value="30" />
             <StatValue stattype="ElectricalSkillBonus" value="30" />
         </Effect>
-        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="3,1" sheetelementsize="128,128" origin="0,0"/>
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="7,3" sheetelementsize="128,128" origin="0,0"/>
+
+    </Affliction>
+        <Affliction
+            identifier="helpfulhusk"
+            description=""
+            type="talentbuff"
+            isbuff="true"
+            duration="1"
+            maxstrength="3">
+        <Description
+          textidentifier="afflictiondescription.helpfulhusk.low"
+          minstrength="0"
+          maxstrength="1"/>
+        <Effect minstrength="0" maxstrength="1">
+            <StatValue stattype="RepairSpeed" value="0.4" />
+            <StatValue stattype="RepairToolStructureRepairMultiplier" value="0.4" />
+            <StatValue stattype="MovementSpeed" value="0.2" />
+            <StatValue stattype="MechanicalSkillBonus" value="20" />
+            <StatValue stattype="ElectricalSkillBonus" value="20" />
+            <StatValue stattype="HelmSkillBonus" value="20"/>
+            <StatValue stattype="MedicalSkillBonus" value="20"/>
+            <StatValue stattype="WeaponsSkillBonus" value="20"/>
+        </Effect>
+        <Description
+          textidentifier="afflictiondescription.helpfulhusk"
+          minstrength="2"
+          maxstrength="3"/>
+        <Effect minstrength="2" maxstrength="3">
+            <StatValue stattype="RepairSpeed" value="0.6" />
+            <StatValue stattype="RepairToolStructureRepairMultiplier" value="0.6" />
+            <StatValue stattype="MovementSpeed" value="0.3" />
+            <StatValue stattype="MechanicalSkillBonus" value="30" />
+            <StatValue stattype="ElectricalSkillBonus" value="30" />
+            <StatValue stattype="HelmSkillBonus" value="30"/>
+            <StatValue stattype="MedicalSkillBonus" value="30"/>
+            <StatValue stattype="WeaponsSkillBonus" value="30"/>
+        </Effect>
+
+        <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="0,4" sheetelementsize="128,128" origin="0,0"/>
     </Affliction>
 
 </Afflictions>
