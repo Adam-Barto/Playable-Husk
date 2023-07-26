@@ -14,7 +14,7 @@
   <talentdescription.intheopenwater>Gain [xpbonus]% bonus XP and [moneybonus]% bonus money when completing a mining mission</talentdescription.intheopenwater>
 <!--Make it more clear what it does-->
   <talentname.unnaturallurch>Unnatural Lurch</talentname.unnaturallurch>
-  <talentdescription.unnaturallurch>Get a percent bonus when swimming and for the first x seconds when sprinting</talentdescription.unnaturallurch>
+  <talentdescription.unnaturallurch>Get a [percent] bonus when swimming and for the first [duration] seconds when sprinting</talentdescription.unnaturallurch>
 <!--Make it more clear what it does-->
   <talentname.uncomfortablyattentive>Uncomfortably Attentive</talentname.uncomfortablyattentive>
   <talentdescription.uncomfortablyattentive>Whilst a fellow crewmate is preforming an activity within x space, you gain a skill bonus to preforming that same activity for x seconds</talentdescription.uncomfortablyattentive>
@@ -63,11 +63,11 @@
 
 If a crewmate dies whilst you are preforming "breath of life" on them, they will instead immediately become fully husked and under player control for x minutes, after which time they will once again go down. Every full infection after the first will have an increasing chance of being permanent, at which point the player will instead lose control and be considered deceased when the duration ends
   </talentdescription.worsecasescenario>
-  <!--Make it more clear what it does-->
+  <!--Testing complete-->
   <talentname.concerningpresence>Concerning Presence</talentname.concerningpresence>
   <talentdescription.concerningpresence>Despite the ok from the captain, the crew is not entirely ok with their new addition and would prefer to keep as much distance as possible
 
-Crewmates within x meters get a bonus to move speed, welding speed, plasma/ drill speed, repair speed, electrical and mechanical engineering. This bonus is further multiplied x2 and x3 the closer you are to them
+Crewmates within [distance] meters get a bonus to move speed, welding speed, plasma/ drill speed, repair speed, electrical and mechanical engineering. This bonus is further multiplied x2 and x3 the closer you are to them
   </talentdescription.concerningpresence>
     <!--Make it more clear what it does-->
   <talentname.secondnature>Second Nature</talentname.secondnature>
@@ -114,5 +114,12 @@ Crewmates within x meters get a bonus to move speed, welding speed, plasma/ dril
 <!--  Afflictions-->
   <afflictionname.getthatthingawayfromme>Unpleasant Aura</afflictionname.getthatthingawayfromme>
   <afflictiondescription.getthatthingawayfromme>Merchants look uneasy... do you have something stuck in your teeth?</afflictiondescription.getthatthingawayfromme>
+  <afflictionname.perpetuallydamp>Perpetually Damp</afflictionname.perpetuallydamp>
+  <afflictiondescription.perpetuallydamp>You feel more at home in the water... so you brought it with you.</afflictiondescription.perpetuallydamp>
+
+  <afflictionname.concerningpresence>Concerning Presence</afflictionname.concerningpresence>
+  <afflictiondescription.concerningpresence.high>You can smell the briny salt, as if a person could mildew. It's husk parasite chitters behind you, but you dare not look. You are drawing on speed you didn't know you had to get the job done and get out of it's presence.</afflictiondescription.concerningpresence.high>
+  <afflictiondescription.concerningpresence.medium>The sound of soggy boots dragging, the unnatural shuffle. You can hear it drawing closer. You need to finish this and get out now..</afflictiondescription.concerningpresence.medium>
+  <afflictiondescription.concerningpresence.low>The hair stands up on the back of your neck, your tools shake a little as you try to rush your duties. Something in your mind tells you, "it" is coming.</afflictiondescription.concerningpresence.low>
 
 </infotexts>
