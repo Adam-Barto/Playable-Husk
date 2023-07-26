@@ -49,11 +49,23 @@
     <Talent identifier="unnaturallurch">
         <Icon texture="%ModDir%/Job/TalentsIcons.png" sheetindex="2,0" sheetelementsize="128,128"/>
         <Description tag="talentdescription.unnaturallurch">
-            <Replace tag="[xpbonus]" value="15" color="gui.green"/>
-            <Replace tag="[moneybonus]" value="15" color="gui.green"/>
-
+            <Replace tag="[percent]" value="20" color="gui.green"/>
+            <Replace tag="[duration]" value="15" color="gui.green"/>
         </Description>
-
+<!--        <AbilityGroupInterval interval="0.9">-->
+<!--&lt;!&ndash;            <Conditions>&ndash;&gt;-->
+<!--&lt;!&ndash;                <AbilityConditionAllyNearby distance="2000" truthywhen="NoCharacterMatches"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            </Conditions>&ndash;&gt;-->
+<!--            <Abilities>-->
+<!--                <CharacterAbilityApplyStatusEffects>-->
+<!--                    <StatusEffects>-->
+<!--                        <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">-->
+<!--                            <Affliction identifier="perpetuallydamp" amount="1.0"/>-->
+<!--                        </StatusEffect>-->
+<!--                    </StatusEffects>-->
+<!--                </CharacterAbilityApplyStatusEffects>-->
+<!--            </Abilities>-->
+<!--        </AbilityGroupInterval>-->
 
     </Talent>
     <Talent identifier="uncomfortablyattentive">
